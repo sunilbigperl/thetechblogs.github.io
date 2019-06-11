@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html >
+   <head>
+      <title>Virendra Yadav</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <!-- <link rel="alternate" type="application/atom+xml" title="News Feed" href="https://martinfowler.com/feed.atom"> -->
+      <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+      <!-- <meta property="twitter:account_id" content="16665197">
+         <link rel="openid.server" href="http://www.myopenid.com/server">News and Updates
+         <link rel="openid.delegate" href="http://martinfowler.myopenid.com/">
+         
+         <meta property="og:image" content="/logo-sq.jpg">
+         <meta property="og:title" content="martinfowler.com">
+         <meta property="og:url" content="https://martinfowler.com">
+         <meta property="og:type" content="website"> -->
+      <meta property="og:description" content="A website on software development, edited by Martin Fowler">
+   </head>
+   <body data-gr-c-s-loaded="true">
+      <div class="container">
+
+        <div class=" top_navbar" style="background-image: url(&quot;img/cranIslands.png&quot;); background-repeat: no-repeat;background-color: black">
+
+
+          <div class="row justify-content-between">
+              <div class="col-md-4  text-white">
+                VirendraYadav.co
+              </div>
+              <div class="col-md-4 search_form py-2">
+                <div class="search_feild">
+                   <form class="align-self-start hide_form" style=" vertical-align:top">
+                      <input class=" mr-sm-2" type="search"  aria-label="Search">
+                      <i class="fa fa-search text-white" aria-hidden="true" style="font-size:20px"></i>
+                    </form>
+             
+               <i class="fa fa-bars bar_icon text-white" onclick="myFunction()"></i>
+                </div>
+           
+                 
+                   
+<!-- 
+                    <i class="fa fa-bars bar_icon" onclick="myFunction()"></i> -->
+                
+                 
+                  
+              </div>
+            </div>
+
+          
+
+            <div class="row nav_links">
+                <div class="col-md-6  offset-md-6 pb-1" style="color:white">
+                    <ul class=" list-inline ">
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">Refactoring</a></li>
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">Agile</a></li>
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">Design</li>
+                      
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">About</li>
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">ThoughtWorks</li>
+                       
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#"><i class="fa fa-rss" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                      </ul>
+                  
+                </div>
+              </div>
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <!-- <div class="d-inline">sss</div>
+          
+          <div class="d-inline ">
+                      
+              <form >
+                <input class=" mr-sm-2" type="search"  aria-label="Search">
+                <i class="fa fa-search" aria-hidden="true" style="font-size:20px"></i>
+              </form>
+              <i class="fa fa-bars bar_icon" onclick="myFunction()"></i>
+            
+              
+            </div> -->
+        </div>
+
+
+
+
+
+         
+
+                  <div class="menu_box  " id="myDIV" style="display:none">
+                      <div class="vv">
+                      </form>
+                          <span class="pull-right menu_close_btn" id="close_btn" style="color:white" onclick="myFunction1()" >
+                                X
+                          </span>
+                            
+                      </div>
+                      
+             
+                                <div class="row text-light">
+    
+                                    <div class="col-md-2 dropdown_menus  text-center ">
+                                        <h2>TOPIC</h2>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                       
+                                    </div>
+    
+                                    <div class="col-md-2 dropdown_menus text-center">
+                                      <br>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                      
+                                        
+                                       
+                                    </div>
+    
+                                    <div class="col-md-2 dropdown_menus text-center">
+                                            <h2>ABOUT ME
+                                              </h2>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        
+                                       
+                                    </div>
+    
+                                    <div class="col-md-2 dropdown_menus text-center">
+                                            <h2>CONTENT</h2>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                       
+                                    </div>
+    
+                                    <div class="col-md-2 dropdown_menus text-center">
+                                            <h2>FOLLOW</h2>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                        <a class="dropdown-item py-3" href="#">Link</a>
+                                      
+                                       
+                                    </div>
+                                    <div class="col-md-2 dropdown_menus text-center">
+                                            <h2>THOUGHTWORKS</h2>
+                                            <a class="dropdown-item py-3" href="#">Link</a>
+                                            <a class="dropdown-item py-3" href="#">Link</a>
+                                            <a class="dropdown-item py-3" href="#">Link</a>
+                                           
+                                            
+                                        </div>
+    
+                                </div>
+    
+                            
+                  </div>
+
+
+
+
+         <!-- <div id="banner" style="background-image: url(&quot;img/cranIslands.png&quot;); background-repeat: no-repeat">
+            <div class="name-logo"><a href="https://martinfowler.com"><img src="img/mf-name-white.png"></a></div>
+            <div class="search">
+            
+               <form method="GET" action="https://www.google.com/search">
+                  <input type="hidden" name="ie" value="UTF-8">
+                  <input type="hidden" name="oe" value="UTF-8">
+                  <input class="field" type="text" name="q" size="15" maxlength="255" value="">
+                  <button class="button" type="submit" name="btnG" value=" " title="Search">
+                  <input type="hidden" name="domains" value="martinfowler.com">
+                  <input type="hidden" name="sitesearch" value=""> 
+                  <input type="hidden" name="sitesearch" value="martinfowler.com">
+                  </button>
+               </form>
+            </div>
+            <div class="menu-button navmenu-button"><a class="icon icon-bars" href="#navmenu-bottom"></a></div>
+            <div class="top-menu">
+               <ul>
+                  <li><a class="" href="https://refactoring.com">Refactoring</a></li>
+                  <li><a class="" href="/agile.html">Agile</a></li>
+                  <li><a class="" href="/design.html">Design</a></li>
+                  <li><a class="" href="/aboutMe.html">About</a></li>
+                  <li><a class="tw" href="https://www.thoughtworks.com">ThoughtWorks</a></li>
+                  <li><a class="icon icon-rss" href="/feed.atom" title="feed"></a></li>
+                  <li><a class="icon icon-twitter" href="https://www.twitter.com/martinfowler" title="twitter stream"></a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="div" id="top-navmenu">
+            <header class="navmenu">
+               <div class="nav-head">
+                  <div class="search">
+                  
+                     <form method="GET" action="https://www.google.com/search">
+                        <input type="hidden" name="ie" value="UTF-8">
+                        <input type="hidden" name="oe" value="UTF-8">
+                        <input class="field" type="text" name="q" size="15" maxlength="255" value="">
+                        <button class="button" type="submit" name="btnG" value=" " title="Search">
+                        <input type="hidden" name="domains" value="martinfowler.com">
+                        <input type="hidden" name="sitesearch" value=""> 
+                        <input type="hidden" name="sitesearch" value="martinfowler.com">
+                        </button>
+                     </form>
+                  </div>
+                  <div class="closediv">
+                     <span class="close" title="close"></span>
+                  </div>
+               </div>
+               <div class="nav-body">
+                  <div class="topics">
+                     <h2>Topics</h2>
+                     <p><a href="/design.html">Design</a></p>
+                     <p><a href="https://refactoring.com">Refactoring</a></p>
+                     <p><a href="/agile.html">Agile</a></p>
+                     <p><a href="/delivery.html">Continuous Delivery</a></p>
+                     <p><a href="/microservices">Microservices</a></p>
+                     <p><a href="/nosql.html">NoSQL</a></p>
+                     <p><a href="/dsl.html">DSL</a></p>
+                  </div>
+                  <div class="about">
+                     <h2>about me</h2>
+                     <p><a href="/aboutMe.html">About</a></p>
+                     <p><a href="/books">Books</a></p>
+                     <p><a href="/faq.html">FAQ</a></p>
+                  </div>
+                  <div class="content">
+                     <h2>content</h2>
+                     <p><a href="/videos.html">Videos</a></p>
+                     <p><a href="/tags">Content Index</a></p>
+                     <p><a href="/articles/eurogames">Board Games</a></p>
+                     <p><a href="/photos">Photography</a></p>
+                  </div>
+                  <div class="tw">
+                     <h2>ThoughtWorks</h2>
+                     <p><a href="https://thoughtworks.com/blogs">Blogs</a></p>
+                     <p><a href="https://thoughtworks.com/careers">Careers</a></p>
+                     <p><a href="https://thoughtworks.com/products">Products</a></p>
+                  </div>
+                  <div class="feeds">
+                     <h2>follow</h2>
+                     <p><a href="https://www.twitter.com/martinfowler">Twitter</a></p>
+                     <p><a href="/feed.atom">RSS</a></p>
+                  </div>
+               </div>
+            </header>
+         </div> -->
+         <div id="content1">
+            <div class="content11 sides1">
+               <div class="grid_10">
+                  <div id="title">
+                     <p>My name is Martin Fowler: I.m an author, speaker, and loud-mouth on the design of enterprise
+                        software. This site is dedicated to improving the profession of software development, with
+                        a focus on skills and techniques that will last a developer for most of their career. I.m
+                        the editor of the site and the most prolific writer. It was originally just my personal site,
+                        but over the last few years many colleagues have written excellent material that I.ve been
+                        happy to host here. I work for <a href="http://www.thoughtworks.com">ThoughtWorks</a>, a really rather good software delivery and
+                        consulting company. To find your way around this site, go to the <a href="intro.html">intro
+                        guide</a>.
+                     </p>
+                  </div>
+               </div>
+               <div class="clear"></div>
+            </div>
+
+           
+            <div class="content" id="content1">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="line"></div>
+                     <h1 >News and Updates</h1>
+                     <p>My <a href="/feed.atom"><strong>atom feed</strong></a> (RSS) announces any updates to this site, as
+                        well as various news about my activities and other things I think you
+                        may be interested in. I also make regular announcements via my <a href="http://www.twitter.com/martinfowler"><strong>twitter</strong> feed</a>, which I copy to my <a href="https://www.facebook.com/martinFowlerThoughtWorks">facebook page</a>.
+                     </p>
+                     <hr>
+                     <div id="news">
+                        <div class="newsEntry">
+                           <h3><a href="https://martinfowler.com/bliki/TechnicalDebt.html">Bliki: TechnicalDebt</a></h3>
+                           <p class="date">Tue 21 May 2019 11:59 EDT</p>
+                           <div class="content">
+                              <div class="img"><a href="https://martinfowler.com/bliki/TechnicalDebt.html"><img  class="img-fluid" src="img/sketch.png"></a></div>
+                              <p>Software systems are prone to the build up of <b>cruft</b> - deficiencies in
+                                 internal quality that make it harder than it would ideally be to modify and
+                                 extend the system further. Technical Debt is a metaphor, coined by Ward
+                                 Cunningham, that frames how to think about dealing with this cruft, thinking
+                                 of it like a financial debt. The extra effort that it takes to add new
+                                 features is the interest paid on the debt.
+                              </p>
+                              <p><a href="https://martinfowler.com/bliki/TechnicalDebt.html">more ...</a></p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="newsEntry">
+                           <h3><a href="https://martinfowler.com/articles/data-monolith-to-mesh.html">How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh</a></h3>
+                           <p class="date">Mon 13 May 2019 13:37 EDT</p>
+                           <div class="content">
+                              <div class="img"><a href="https://martinfowler.com/articles/data-monolith-to-mesh.html"><img src="img/card.png" width="350"></a></div>
+                              <p>Many enterprises are investing in a centralized data platform to
+                                 provide support for business insights and (hopefully) automated decision
+                                 making. Having worked with several of these organizations, my colleague <a href="https://twitter.com/zhamakd">Zhamak Dehghani</a> feels there are
+                                 fundamental problems with this common approach. These demand a shift to a
+                                 more decentralized approach that draws from modern distributed
+                                 architecture - which she refers to as a <i>data mesh</i>.
+                              </p>
+                              <p><a href="https://martinfowler.com/articles/data-monolith-to-mesh.html">more.</a></p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="newsEntry">
+                           <h3><a href="https://martinfowler.com/photos/120.html">photostream 120</a></h3>
+                           <p class="date">Thu 18 Apr 2019 18:47 EDT</p>
+                           <div class="content">
+                              <p><a href="https://martinfowler.com/photos/120.html"><img class="img-fluid" src="img/120.jpg"></a></p>
+                              <p></p>
+                              <p>Dubrovnik, Croatia (2018)</p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="newsEntry">
+                           <h3><a href="https://martinfowler.com/articles/201904-end-golden-age.html">Lamenting the passing of the Golden Age of presentation visuals</a></h3>
+                           <p class="date">Thu 11 Apr 2019 09:44 EDT</p>
+                           <div class="content">
+                              <p>For a few years it was easy to give a talk with a visual accompaniment
+                                 driven by my laptop next to me. But recently it's getting harder to do
+                                 this, making me wonder if I should continue designing visuals at all.
+                              </p>
+                              <p><a href="https://martinfowler.com/articles/201904-end-golden-age.html">more.</a></p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="newsEntry">
+                           <h3><a href="https://martinfowler.com/articles/domain-oriented-observability.html">Domain-Oriented Observability</a></h3>
+                           <p class="date">Tue 02 Apr 2019 09:41 EDT</p>
+                           <div class="content">
+                              <div class="img"><a href="https://martinfowler.com/articles/domain-oriented-observability.html"><img src="img/twitter-card.png" width="350"></a></div>
+                              <p>Any serious software system needs some form of observability, so we can
+                                 figure out how it is working and keep track of problems. But adding the
+                                 code for this often results in lots of low-level cruft. <a href="https://thepete.net/">Pete Hodgson</a> describes a pattern that allows
+                                 developers to add observability via a testable domain-oriented API that
+                                 removes most of this cruft.
+                              </p>
+                              <p><a href="https://martinfowler.com/articles/domain-oriented-observability.html">more.</a></p>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="newsEntry">
+                           <h3><a href="https://martinfowler.com/bliki/LockInCost.html">Bliki: LockInCost</a></h3>
+                           <p class="date">Tue 05 Mar 2019 08:27 EST</p>
+                           <p class="authors">by Wisen Tanasa</p>
+                           <div class="content">
+                              <div class="img"><a href="https://martinfowler.com/bliki/LockInCost.html"><img class="img-fluid" src="img/sketch1.png"></a></div>
+                              <p>In my recent client engagement, I foresaw that serverless architecture was
+                                 a perfect fit. The idea of adopting serverless architecture, though, didn.t
+                                 fly to our client well due to the fear of vendor lock-in. It was an
+                                 interesting time for retailers as staying in AWS might mean that Amazon, as
+                                 another retail business, will be given a competitive advantage. Given the idea
+                                 of not supporting a competitor, my client was interested to ensure that the
+                                 solution chosen by us is fully portable to other cloud vendors.
+                              </p>
+                              <p><a href="https://martinfowler.com/bliki/LockInCost.html">more ...</a></p>
+                           </div>
+                        </div>
+                        <hr>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="line2">
+                        <p><a href="/books/refactoring.html">
+                           <img class="img-fluid" src="img/refact2-land-1p3.png" title="Refactoring" alt="Refactoring">
+                           </a>
+                        </p>
+                        <p><a href="http://refactoring.com">Refactoring</a> has become a core skill for software developers, it is the foundation behind
+                           evolutionary architecture and modern agile software development. I wrote the original book
+                           on refactoring in 2000, and recently published a <a href="/books/refactoring.html">second edition</a>.
+                        </p>
+                        <p>As well as the book, I.ve written
+                           several essays on refactoring here:
+                        </p>
+                        <div class="refactoring-essays">
+                           <ul>
+                              <li>JavaScript offers many targets for refactoring, so
+                                 <a href="/articles/refactoring-video-store-js/">Refactoring a JavaScript Video Store</a> takes the
+                                 original video store example from the book and explores it in JavaScript. It outlines
+                                 four directions you can take the refactoring: a nested function with a dispatcher, using
+                                 classes, and transformation using an intermediate data structure.
+                              </li>
+                              <li>While most of our logic is written directly in an imperative language, it is sometimes
+                                 very useful to represent such logic in a data structure.
+                                 <a href="/articles/refactoring-adaptive-model.html">Refactoring to an Adaptive Model</a> describes
+                                 this refactoring, which produces an adaptive model interpreted by generic code.
+                              </li>
+                              <li>As a program grows in size it.s important to split it into modules, so that you don.t
+                                 need to understand all of it to make a small modification. In
+                                 <a href="/articles/refactoring-dependencies.html">Refactoring Module Dependencies</a> I modularize
+                                 a small example using layering and introducing Service Locator and Dependency
+                                 Injection. I illustrate these using both Java and JavaScript so you can see how this
+                                 modularization looks in different languages.
+                              </li>
+                              <li>When I write code that deals with external services, I find it valuable to separate that
+                                 access code into separate objects.
+                                 <a href="/articles/refactoring-external-service.html">Refactoring code that accesses external services</a>
+                                 shows how I would refactor some congealed code into a common pattern for this.
+                              </li>
+                              <li>Modern languages give us the opportunity go beyond the loop as a way of handling
+                                 repetitive behavior.
+                                 <a href="/articles/refactoring-pipelines.html">Refactoring with Loops and Collection Pipelines</a>
+                                 provides a series of small examples of refactoring loops into my preferred approach.
+                              </li>
+                              <li><a href="/articles/refactoring-document-load.html">Refactoring Code to Load a Document</a> looks at
+                                 how manipulating large JSON documents can often be made easier by encapsulating a
+                                 combination of loading strategies.
+                              </li>
+                           </ul>
+                        </div>
+                        <hr>
+                        <h2 id="tw-logotwlogogif"><img src="img/twlogo.gif" alt="TW logo"></h2>
+                        <p>I discovered <a href="http://www.thoughtworks.com">ThoughtWorks</a> in 2000: then a small American company whose
+                           philosophy of software development was remarkably similar to my
+                           own. Now we.ve grown to around 4000 people world-wide, but kept the
+                           values that make us special. My colleagues have built <a href="http://www.thoughtworks.com/clients">critical systems
+                           for many clients</a> in that time, and I.ve learned many lessons from
+                           them. While doing this, we found we often didn.t have the tools we
+                           needed, so we started to build them. This led to <a href="http://www.thoughtworks.com/open-source">open-source tools</a>
+                           such as <a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>,  <a href="http://seleniumhq.org/">Selenium</a>,  <a href="http://www.testingwithfrank.com/">Frank</a>, and
+                           <a href="https://github.com/dreamhead/moco">Moco</a> as well as <a href="http://www.thoughtworks.com/products">commercial products</a>.
+                        </p>
+                        <p>I have many opportunities, but I.ve stayed at ThoughtWorks because of
+                           the quality of my colleagues, who include both well-known speakers and
+                           those who may not be famous names but do an excellent job of software
+                           delivery (and feed me the information to write about). We are inspired
+                           by working with each other and our unusual <a href="/bliki/ThreePillars.html">three-pillar philosophy</a>
+                           that raises professional excellence and social justice to the same
+                           level as financial performance.
+                        </p>
+                        <p>And we are always looking for more great people to
+                           <a href="http://thoughtworks.com/careers">join our curious company</a>. Maybe I.ll see you in one of our
+                           offices some day.
+                        </p>
+                        <hr>
+                        <h2 id="continuous-integration-and-delivery">Continuous Integration and Delivery</h2>
+                        <p>For a long time I.ve been a champion of <a href="/articles/continuousIntegration.html">Continuous Integration</a> which
+                           reduces integration risk by integrating early and often, an
+                           application of the principle of <a href="/bliki/FrequencyReducesDifficulty.html">Frequency Reduces Difficulty</a>. We.ve
+                           found CI to be a core technique at ThoughtWorks and use it almost all
+                           the time. At the heart of this is a style of development that
+                           <a href="/bliki/FeatureBranch.html">minimizes long feature branches</a> with techniques like <a href="/bliki/BranchByAbstraction.html">Branch By
+                           Abstraction</a> and <a href="/bliki/FeatureToggle.html">Feature Toggles</a>.
+                        </p>
+                        <p>While this is useful, there was still risk present from software that
+                           works in the development environment to getting it to work in
+                           production. As a result we developed <a href="/bliki/DeploymentPipeline.html">Deployment Pipelines</a> to
+                           reduce this risk, moving closer to our aim of Continuous Delivery:
+                           building software in such a way that we confidently deploy the latest
+                           builds into production whenever there is a business need. We find this
+                           improves feedback, reduces risk, and increases the visibility of
+                           project progress.
+                        </p>
+                        <p>For more information: take a
+                           look at <a href="delivery.html">my guide page on Continuous Delivery</a>.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                    
+                     <div id="mfPhoto">
+                        <p><img class="img-fluid" src="img/mf-dallas.jpg">
+                        <span class="credit">photo: Christopher Ferguson</span></p>
+                        
+                        </div>
+                        <hr>
+                        <a href="http://www.thoughtworks.com">
+                        <img src="img/twlogo.gif">
+                        </a>
+                        <hr>
+                        
+                        <hr>
+                        <div class="tw-products">
+                        <p><a href="http://www.gocd.org" title="Go: continuous delivery server"><img class="img-fluid" src="img/go.png"></a></p>
+                        <p><a href="http://getgauge.io" title="Gauge: test automation you'll actually like"><img class="img-fluid" src="img/gauge.png"></a></p>
+                        </div>
+                        
+                        <hr>
+                        <div class="tags">
+                        
+                        <div class="tags">
+                        <h1>tags</h1>
+                        
+                        <p><a href="tags/API design.html">API design</a>&nbsp;. <a href="tags/academia.html">academia</a>&nbsp;. <a href="tags/agile.html">agile</a>&nbsp;. <a href="tags/agile adoption.html">agile adoption</a>&nbsp;. <a href="tags/analysis patterns.html">analysis patterns</a>&nbsp;. <a href="tags/application architecture.html">application architecture</a>&nbsp;. <a href="tags/application integration.html">application integration</a>&nbsp;. <a href="tags/bad things.html">bad things</a>&nbsp;. <a href="tags/big data.html">big data</a>&nbsp;. <a href="tags/board games.html">board games</a>&nbsp;. <a href="tags/build scripting.html">build scripting</a>&nbsp;. <a href="tags/certification.html">certification</a>&nbsp;. <a href="tags/clean code.html">clean code</a>&nbsp;. <a href="tags/collaboration.html">collaboration</a>&nbsp;. <a href="tags/computer history.html">computer history</a>&nbsp;. <a href="tags/conference panels.html">conference panels</a>&nbsp;. <a href="tags/conferences.html">conferences</a>&nbsp;. <a href="tags/continuous delivery.html">continuous delivery</a>&nbsp;. <a href="tags/database.html">database</a>&nbsp;. <a href="tags/design.html">design</a>&nbsp;. <a href="tags/dictionary.html">dictionary</a>&nbsp;. <a href="tags/distributed computing magazine.html">distributed computing magazine</a>&nbsp;. <a href="tags/diversions.html">diversions</a>&nbsp;. <a href="tags/diversity.html">diversity</a>&nbsp;. <a href="tags/documentation.html">documentation</a>&nbsp;. <a href="tags/domain driven design.html">domain driven design</a>&nbsp;. <a href="tags/domain specific language.html">domain specific language</a>&nbsp;. <a href="tags/domestic.html">domestic</a>&nbsp;. <a href="tags/encapsulation.html">encapsulation</a>&nbsp;. <a href="tags/enterprise architecture.html">enterprise architecture</a>&nbsp;. <a href="tags/estimation.html">estimation</a>&nbsp;. <a href="tags/event architectures.html">event architectures</a>&nbsp;. <a href="tags/evolutionary design.html">evolutionary design</a>&nbsp;. <a href="tags/expositional architectures.html">expositional architectures</a>&nbsp;. <a href="tags/extreme programming.html">extreme programming</a>&nbsp;. <a href="tags/gadgets.html">gadgets</a>&nbsp;. <a href="tags/ieeeSoftware.html">ieeeSoftware</a>&nbsp;. <a href="tags/infodecks.html">infodecks</a>&nbsp;. <a href="tags/internet culture.html">internet culture</a>&nbsp;. <a href="tags/interviews.html">interviews</a>&nbsp;. <a href="tags/language feature.html">language feature</a>&nbsp;. <a href="tags/language workbench.html">language workbench</a>&nbsp;. <a href="tags/lean.html">lean</a>&nbsp;. <a href="tags/legacy rehab.html">legacy rehab</a>&nbsp;. <a href="tags/legal.html">legal</a>&nbsp;. <a href="tags/metrics.html">metrics</a>&nbsp;. <a href="tags/microservices.html">microservices</a>&nbsp;. <a href="tags/microsoft.html">microsoft</a>&nbsp;. <a href="tags/mobile.html">mobile</a>&nbsp;. <a href="tags/model-view-controller.html">model-view-controller</a>&nbsp;. <a href="tags/noSQL.html">noSQL</a>&nbsp;. <a href="tags/object collaboration design.html">object collaboration design</a>&nbsp;. <a href="tags/parser generators.html">parser generators</a>&nbsp;. <a href="tags/photography.html">photography</a>&nbsp;. <a href="tags/podcast.html">podcast</a>&nbsp;. <a href="tags/popular.html">popular</a>&nbsp;. <a href="tags/presentations.html">presentations</a>&nbsp;. <a href="tags/privacy.html">privacy</a>&nbsp;. <a href="tags/process theory.html">process theory</a>&nbsp;. <a href="tags/productivity.html">productivity</a>&nbsp;. <a href="tags/programming platforms.html">programming platforms</a>&nbsp;. <a href="tags/project planning.html">project planning</a>&nbsp;. <a href="tags/projects.html">projects</a>&nbsp;. <a href="tags/recruiting.html">recruiting</a>&nbsp;. <a href="tags/refactoring.html">refactoring</a>&nbsp;. <a href="tags/refactoring boundary.html">refactoring boundary</a>&nbsp;. <a href="tags/requirements analysis.html">requirements analysis</a>&nbsp;. <a href="tags/retrospective.html">retrospective</a>&nbsp;. <a href="tags/ruby.html">ruby</a>&nbsp;. <a href="tags/scrum.html">scrum</a>&nbsp;. <a href="tags/security.html">security</a>&nbsp;. <a href="tags/software craftsmanship.html">software craftsmanship</a>&nbsp;. <a href="tags/talk videos.html">talk videos</a>&nbsp;. <a href="tags/team environment.html">team environment</a>&nbsp;. <a href="tags/team organization.html">team organization</a>&nbsp;. <a href="tags/technical debt.html">technical debt</a>&nbsp;. <a href="tags/technical leadership.html">technical leadership</a>&nbsp;. <a href="tags/test categories.html">test categories</a>&nbsp;. <a href="tags/testing.html">testing</a>&nbsp;. <a href="tags/thoughtworks.html">thoughtworks</a>&nbsp;. <a href="tags/tools.html">tools</a>&nbsp;. <a href="tags/travel.html">travel</a>&nbsp;. <a href="tags/uml.html">uml</a>&nbsp;. <a href="tags/version control.html">version control</a>&nbsp;. <a href="tags/web development.html">web development</a>&nbsp;. <a href="tags/web services.html">web services</a>&nbsp;. <a href="tags/website.html">website</a>&nbsp;. <a href="tags/writing.html">writing</a></p>
+                        
+                        <p><a href="tags/2019.html">2019</a>&nbsp;. <a href="tags/2018.html">2018</a>&nbsp;. <a href="tags/2017.html">2017</a>&nbsp;. <a href="tags/2016.html">2016</a>&nbsp;. <a href="tags/2015.html">2015</a>&nbsp;. <a href="tags/2014.html">2014</a>&nbsp;. <a href="tags/2013.html">2013</a>&nbsp;. <a href="tags/2012.html">2012</a>&nbsp;. <a href="tags/2011.html">2011</a>&nbsp;. <a href="tags/2010.html">2010</a>&nbsp;. <a href="tags/2009.html">2009</a>&nbsp;. <a href="tags/2008.html">2008</a>&nbsp;. <a href="tags/2007.html">2007</a>&nbsp;. <a href="tags/2006.html">2006</a>&nbsp;. <a href="tags/2005.html">2005</a>&nbsp;. <a href="tags/2004.html">2004</a>&nbsp;. <a href="tags/2003.html">2003</a>&nbsp;. <a href="tags/2002.html">2002</a>&nbsp;. <a href="tags/2001.html">2001</a>&nbsp;. <a href="tags/2000.html">2000</a>&nbsp;. <a href="tags/1999.html">1999</a>&nbsp;. <a href="tags/1998.html">1998</a>&nbsp;. <a href="tags/1997.html">1997</a>&nbsp;. <a href="tags/1996.html">1996</a></p>
+                        
+                        <p><a href="tags/index.html"><b>All Content</b></a></p>
+                        </div>
+                        
+                        </div>
+                  </div>
+               </div>
+               <!-- row -->
+            </div>
+         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 bg-black">
+             <div id="footers">
+            <div class="tw-logo">
+               <a href="http://www.thoughtworks.com">
+               <img src="img/TW_smb.jpg">
+               </a>
+            </div>
+            <!--                 
+               <div class="copyright">
+               <p>. Martin Fowler | <a href="http://www.thoughtworks.com/privacy-policy">Privacy Policy</a> | <a href="/aboutMe.html#disclosures">Disclosures</a></p>
+               </div> -->
+         </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- Google Analytics -->
+      <script>
+         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+         ga('create', 'UA-17005812-1', 'auto');
+         ga('send', 'pageview');
+      </script>
+      <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+      <!-- End Google Analytics -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="/mfcom.js" type="text/javascript"></script>
+
+
+      <script>
+            function myFunction() {
+              var x = document.getElementById("myDIV");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+
+            function myFunction1() {
+              var y = document.getElementById("myDIV");
+                y.style.display = "none";
+                event.preventDefault();
+              
+            }
+
+   
+            </script>
+
+   </body>
+</html>
