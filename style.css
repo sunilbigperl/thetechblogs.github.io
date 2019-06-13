@@ -898,3 +898,92 @@ a {
   }
     
   }
+
+
+  .post-meta{
+    font-size: 13px;
+  }
+
+  .post-category-single{
+    border: 1px solid #7e91cc;
+    background-color: #7e91cc;
+    color: #fff;
+  }
+
+  .post-category-single:hover {
+    background-color: transparent;
+    color: #7e91cc;
+}
+
+.post-content{
+  line-height: 30px;
+}
+
+.post-tags a{
+  font-size: 13px; 
+  padding: 10px;
+  border:1px solid #ffb5b5;
+  color: #938f8f;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2px;
+}
+.post-tags a:hover{
+
+  color: #fff;
+  background-color: #eb2229;
+  border-color: #eb2229;
+
+     
+}
+.textwidge h2{
+  font-size: 32px;
+}
+
+
+
+#menu {
+  width: auto;
+  padding: 6px;
+}
+#menu * {
+  overflow: hidden;
+  /* white-space: nowrap; */
+
+
+  font-size: 20px;
+  text-align: center;
+}
+#menu a {
+  display: none;
+  width: 0px;
+  opacity: 0;
+
+}
+#menu span {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+}
+#menu .btn{
+  width: 150px;
+  height: 50px;
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 2px;
+  background-color: #03a9f4;
+  border: 0;
+}
+
+.navbrand a:hover{
+ 
+    color: #ffffff;
+    text-decoration:none;
+
+}
+
+.media a{
+  text-decoration: none!important;
+}
+
