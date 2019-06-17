@@ -987,3 +987,15 @@ a {
   text-decoration: none!important;
 }
 
+#content1 ul {
+  list-style: none;
+
+}
+
+.page-link{
+  text-decoration: none!important;
+}
+
+.textwidget p{
+  font-size: 17px;
+}
