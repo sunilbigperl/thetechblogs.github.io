@@ -884,6 +884,9 @@ a {
       padding-top: 4px;
       padding-bottom: 4px;
   }
+  .post-info{
+    margin-top:25px;
+  }
     
   }
   
@@ -909,6 +912,9 @@ a {
     .nav_links {
       padding-top: 4px;
       padding-bottom: 4px;
+  }
+  .post-info{
+    margin-top:25px;
   }
     
   }
@@ -1013,3 +1019,26 @@ a {
 .textwidget p{
   font-size: 17px;
 }
+@media (min-width: 768px){
+  .justify-content-between .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 54.333333%;
+    max-width: 45.333333%;
+}
+}
+
+@media (min-width: 768px){
+  .post-meta .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 73.666667%;
+    max-width: 73.666667%;
+}
+}
+@media (min-width: 768px){
+  .post-meta .col-md-7 {
+    padding: 20px 1px 0px 21px;
+}
+}
+
+
+
